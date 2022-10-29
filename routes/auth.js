@@ -13,7 +13,7 @@ router.get('/', function(req, res, next) {
   }
   else {
     if(student.password == pass)
-      res.json({student: student});
+      res.json(student);
     else{
       res.status(400);
       res.json({error: 'Contraseña incorrecta'});
