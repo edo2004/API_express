@@ -11,7 +11,7 @@ const authRouter = require('./routes/auth');
 
 var app = express();
 app.set('view engine', 'pug')
-const DIRECTORIO_PERMITIDO_CORS = ["http://localhost:5500", "https://cariai.com"];
+const DIRECTORIO_PERMITIDO_CORS = ["http://localhost:5500", "https://cariai.com", "https://cariai.com/cVhlaTdqekZaZkkyL1U4RDROVjFiUWRwb2tWbjdsQi9LWC9za2oyQllVLzNPWmNkWEhVeUtPdDVwL1RSdFRscTBMU010bTVLZHVnPQ==@em@"];
 
 app.use(logger('dev'));
 app.use(express.json());
