@@ -3,9 +3,9 @@ const router = express.Router();
 
 const students = require('../data/students');
 
-router.get('/', function(req, res, next) {
-  const email = req.query?.email;
-  const pass = req.query?.password;
+router.post('/', function(req, res, next) {
+  const email = req.body?.email;
+  const pass = req.body?.password;
   const student = students.find(e => e.email == email);
   if (!student){
     res.status(404);
