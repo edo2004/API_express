@@ -23,7 +23,7 @@ module.exports = [
     name: 'Victor',
     semester: 7,
     code: 100616020777,
-    email: 'eduar@unicauca.edu.co',
+    email: 'victor@unicauca.edu.co',
     celular: '310112233',
     carrer: 'Ingeniería electrnoica y telecomunicaciones',
     password: 'victor123',
